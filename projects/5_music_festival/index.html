@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Festival</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Music Festival</h1>
+        <nav>
+            <ul>
+                <li><a href="#lineup">Lineup</a></li>
+                <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Lineup Section -->
+        <section id="lineup">
+            <h2>Lineup</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Artist</th>
+                        <th>Genre</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Rock</td>
+                        <td>8:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Pop</td>
+                        <td>9:30 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Tickets Section -->
+        <section id="tickets">
+            <h2>Tickets</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="ticket-type">Ticket Type:</label>
+                <select id="ticket-type" name="ticket-type">
+                    <option value="regular">Regular</option>
+                    <option value="vip">VIP</option>
+                </select><br>
+
+                <input type="submit" value="Buy Tickets">
+            </form>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <div>
+                <p>The Music Festival is an annual event that brings together music lovers from all over the world. Our
+                    goal is to showcase the best up-and-coming artists in a variety of genres, from rock and pop to
+                    hip-hop and electronic music.</p>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <p>The festival will be held at the beautiful Green Park in downtown New York City.</p>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>If you have any questions or comments, please email us at info@musicfestival.com or call us at
+                    555-1234.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Music Festival</p>
+    </footer>
+
+    <!-- Video -->
+    <video width="640" height="360" controls>
+        <source src="music-festival.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Audio -->
+    <audio controls>
+        <source src="music-festival-music.mp3" type="audio/mpeg">
+        Your browser does not
+    </audio>
+
+</body>
+
+</html>
