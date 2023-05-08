@@ -1,0 +1,21 @@
+  .flag {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  background-color: #006a4e;
+}
+
+.circle {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  left: 100px;
+  right: 0;
+  top: 120px;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: #f42a41;
+  transform: translate(-50%, -50%);
+}
+

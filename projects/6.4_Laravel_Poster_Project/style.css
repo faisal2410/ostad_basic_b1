@@ -1,0 +1,25 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+body {
+  background-color: black;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.course-img {
+  border: 5px solid white;
+  width: 100%;
+}
