@@ -25,3 +25,18 @@
 // This will calculate the factorial of 5 using the recursive function we defined earlier.
 
 // One important thing to note is that recursive functions can be very memory - intensive if the recursion goes too deep.This is because each function call is added to the call stack, and if the call stack gets too large, it can cause a stack overflow error.It's important to keep this in mind when using recursive functions, and to consider using iterative solutions when possible.
+
+
+// 👉 Recursive function to calculate the factorial of a number
+// function factorial(n) {
+//     // Base case: if the number is 0 or 1, return 1
+//     if (n === 0 || n === 1) {
+//         return 1;
+//     }
+
+//     // Recursive case: multiply the number by the factorial of (n-1)
+//     return n * factorial(n - 1);
+// }
+
+// // Test the factorial function
+// console.log(factorial(5)); // Output: 120

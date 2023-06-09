@@ -78,7 +78,7 @@ let numbers = [1, 2, 3, 4, 5]  //[2,4,6,8,10] // [7,9]
 
 // const doubled = numbers.map((x) => {
 //     return 2 * x+5
-    
+
 // });
 // console.log(doubled);
 
@@ -90,24 +90,24 @@ let numbers = [1, 2, 3, 4, 5]  //[2,4,6,8,10] // [7,9]
 
 // console.log(test)
 
-let person = {
-    fullName: "Faisal ahmed",
-    city: "Sylhet",
-    age: 50,
-    childrensName: ["Afnan", "Talha", "Raihana", "Mashrufa"],
-    isLazy: true,
-    address: {
-        village: "Khadimpara",
-        country:"Bangladesh"
-    },
-    skills: ["html", "css"],
-    photoUrl:"https://picsum.photos/200/300"
-}
+// let person = {
+//     fullName: "Faisal ahmed",
+//     city: "Sylhet",
+//     age: 50,
+//     childrensName: ["Afnan", "Talha", "Raihana", "Mashrufa"],
+//     isLazy: true,
+//     address: {
+//         village: "Khadimpara",
+//         country:"Bangladesh"
+//     },
+//     skills: ["html", "css"],
+//     photoUrl:"https://picsum.photos/200/300"
+// }
 
 // person.childrensName[3] = "Mashrufa Binte Faisal"
 
-let test = Object.entries(person);
-console.log(test);
+// let test = Object.entries(person);
+// console.log(test);
 
 // console.log( person.childrensName[3] );
 
@@ -203,3 +203,51 @@ console.log(test);
 // Output: [["name", "Alice"], ["age", 30], ["profession", "Engineer"]]
 
 
+
+// const person = {
+//     name: 'John',
+//     age: 30,
+//     address: {
+//         street: '123 Main St',
+//         city: 'Anytown',
+//         state: 'CA'
+//     }
+// };
+
+// const jsonString = JSON.stringify(person);
+// console.log(jsonString);
+
+
+
+
+// const jsonString = '{"name":"John","age":30,"address":{"street":"123 Main St","city":"Anytown","state":"CA"}}';
+
+// const person = JSON.parse(jsonString);
+// console.log(person.name);
+// console.log(person.address.city);
+
+
+
+// function factorial(n) {
+//     if (n === 0) {
+//         return 1;
+//     } else {
+//         return n * factorial(n - 1);
+//     }
+// }
+
+
+
+
+// let person = {
+//     name: "John",
+//     address: {
+//         street: "123 Main St",
+//         city: "Anytown",
+//         state: "CA"
+//     }
+// };
+
+// console.log(person?.address?.city); // Output: "Anytown"
+// console.log(person?.address?.zipcode); // Output: undefined
+// console.log(person?.phone?.number); // Output: undefined
